@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'hanken_groteskregular';
+  src: url('../fonts/hankengrotesk-variablefont_wght-webfont.woff2') format('woff2'),
+    url('../fonts/hankengrotesk-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'hanken_groteskregular'
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DEDEDE;
+}
+
+.container {
+  width: 614px;
+  height: 426px;
+  display: flex;
+  border-radius: 28px;
+  background-color: #FFFFFF;
+  box-shadow: 0 10px 20px #00000025;
+}
+
+.container h3 {
+  font-size: 22px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.result,
+.summary {
+  width: 50%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 28px;
+}
+
+.result {
+  background-color: #312CEB;
+  color: #FFFFFF;
+}
+
+.container .circle {
+  background-image: linear-gradient(#00000025, #00000000);
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto;
+  border-radius: 100%;
+}
+
+.container .circle p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container .result p:last-of-type {
+  padding: 0 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.circle h1 {
+  font-size: 50px;
+}
+
+.result-description {
+  text-align: center;
+  margin-top: 15px;
+  padding: 0 40px;
+}
+
+.container .result p:last-of-type {
+  padding: 0 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.container .summary ul {
+  width: 76%;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-top: 28px;
+}
+
+.container .summary ul li {
+  width: 100%;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+  padding: 0 14px;
+}
+
+.container .summary ul li:nth-child(1) {
+  background-color: #FFF6F5;
+}
+
+.container .summary ul li:nth-child(2) {
+  background-color: #FFFBF2;
+}
+
+.container .summary ul li:nth-child(3) {
+  background-color: #F2FBFA;
+}
+
+.container .summary ul li:nth-child(4) {
+  background-color: #F3F3FD;
+}
+
+.summary h3 {
+  text-align: left;
+}
+
+.container .summary ul li div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.container .summary ul li:nth-child(1) div span {
+  color: #FF1A00;
+}
+
+.container .summary ul li:nth-child(2) div span {
+  color: #FFB100;
+}
+
+.container .summary ul li:nth-child(3) div span {
+  color: #00E6CC;
+}
+
+.container .summary ul li:nth-child(4) div span {
+  color: #0000FF;
+}
+
+.container .summary ul li span {
+  color: #303B5975;
+}
+
+.container .summary ul li span b {
+  color: #303B59;
+}
+
+.container a {
+  width: 90%;
+  line-height: 46px;
+  color: #FFFFFF;
+  border-radius: 25px;
+  display: block;
+  background-color: #303B59;
+  transition-duration: 300ms;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 34px;
+}
