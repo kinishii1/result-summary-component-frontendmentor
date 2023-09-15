@@ -12,7 +12,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/kinishii1/result-summary-component-frontendmentor/blob/main/image.png)
 
 
 ### Built with
